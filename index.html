@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Shrikhand&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ad9fbbbca2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="CSS/accueil.css"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="images/logo/ohmyfood.png">
+        <title>ohmyfood</title>
+    </head>
+
+    <body>
+
+        <div class="loader">
+            <span class="letter">h</span>
+            <span class="letter">o</span>
+            <span class="letter">m</span>
+            <span class="letter">y</span>
+            <span class="letter">f</span>
+            <span class="letter">o</span>
+            <span class="letter">o</span>
+            <span class="letter">d</span>
+        </div>
+
+        <header>          
+            <div class="logo">
+                <img src="images/logo/ohmyfood.png" alt="Logo ohmyfood"/>
+            </div>
+        </header>
+
+        <section>
+            <div class="formulaire">
+                <form method="post" action="traitement.php">
+                    <i id="icon-location" class="fa-solid fa-location-dot"></i>
+                    <input class="search-text" type="search" value="Paris, Belleville"/>
+                </form>
+            </div>
+            <div  class="container_first">
+                <h1>Réservez le menu qui<br>vous convient</h1>
+                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+                <a href="#Restaurants" class="explor_button">Explorer nos restaurants</a>
+            </div>
+        </section>
+        
+        <section class="container_button">
+            <h2>Fonctionnement</h2>
+            <div class="box_button">
+                <div class="button">
+                    <p>1</p>
+                    <i class="fa-solid fa-mobile-screen-button grey_icon"></i>
+                    <h4>Choisissez un restaurant</h4>
+                </div>
+                <div class="button">
+                    <p>2</p>
+                    <i class="fa-solid fa-list-ul grey_icon"></i>
+                    <h4>Composez votre menu</h4>
+                </div>
+                <div class="button">
+                    <p>3</p>
+                    <i class="fa-solid fa-store grey_icon"></i>
+                    <h4>Dégustez au restaurant</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="container_card">
+            <h2 id="Restaurants">Restaurants</h2>
+            <div class="box_card">
+                <article class="card">
+                    <a href="restaurant1.html">
+                        <p class="new">Nouveau</p>
+                        <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût"/></a>
+                    <div class="text_card">
+                        <a href="restaurant1.html">
+                        <h3>La palette du goût</h3>
+                        <p>Menilmontant</p></a>
+                        <div class="icon_content">
+                            <div class="coeur_vide">
+                                <label class="custom-checkbox">
+                                   <input type="checkbox" style="visibility:hidden"/>
+                                    <i class="fa-regular fa-heart unchecked"></i>
+                                    <i class="fa-solid fa-heart checked"></i>
+                                </label>
+                            </div>
+                            <div class="coeur_solid">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <a href="restaurant2.html">
+                        <p class="new">Nouveau</p>
+                        <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée"/></a>
+                    <div class="text_card">
+                        <a href="restaurant2.html">
+                        <h3>La note enchantée</h3>
+                        <p>Charonne</p></a>
+                        <div class="icon_content">
+                            <div class="coeur_vide">
+                                <label class="custom-checkbox">
+                                   <input type="checkbox" style="visibility:hidden"/>
+                                    <i class="fa-regular fa-heart unchecked"></i>
+                                    <i class="fa-solid fa-heart checked"></i>
+                                </label>
+                            </div>
+                            <div class="coeur_solid">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <a href="restaurant3.html"><img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française"/></a>
+                    <div class="text_card">
+                        <a href="restaurant3.html">
+                        <h3>A la française</h3>
+                        <p>Cité Rouge</p></a>
+                        <div class="icon_content">
+                            <div class="coeur_vide">
+                                <label class="custom-checkbox">
+                                   <input type="checkbox" style="visibility:hidden"/>
+                                    <i class="fa-regular fa-heart unchecked"></i>
+                                    <i class="fa-solid fa-heart checked"></i>
+                                </label>
+                            </div>
+                            <div class="coeur_solid">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <a href="restaurant4.html"><img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens"/></a>
+                    <div class="text_card">
+                        <a href="restaurant4.html">
+                        <h3>Le délice des sens</h3>
+                        <p>Folie-Méricourt</p></a>
+                        <div class="icon_content">
+                            <div class="coeur_vide">
+                                <label class="custom-checkbox">
+                                   <input type="checkbox" style="visibility:hidden"/>
+                                    <i class="fa-regular fa-heart unchecked"></i>
+                                    <i class="fa-solid fa-heart checked"></i>
+                                </label>
+                            </div>
+                            <div class="coeur_solid">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <div class="BackgroundFooter">
+                <p class="font">ohmyfood</p>
+                <div class="typelist">
+                    <a href="#" target="_blank"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
+                    <a href="#" target="_blank"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
+                    <a href="#" target="_blank">Mentions légales</a>
+                    <a id="Contact" href="mailto:ohmyfood@contact.com">contact</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+        

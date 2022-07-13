@@ -1,0 +1,15 @@
+@mixin rotate ($rotation: 360deg) {
+    -ms-transform: rotate($rotation);
+    -webkit-transform: rotate($rotation);
+    transform: rotate($rotation);
+}
+@mixin gradiant {
+    background: -moz-linear-gradient(top, #9e5adc 10%, #dd6eda 100%);
+    background: -webkit-linear-gradient(top, #9e5adc 10%, #dd6eda 100%);
+    background: linear-gradient(to bottom, #9e5adc 10%, #dd6eda 100%);
+    -webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+    
