@@ -360,7 +360,7 @@ a{
     display: flex;
     flex-direction: column;
 }
-.font{
+.font{ /* Logo dans le footer */
     font-family: 'Shrikhand';
     font-size: 18px;
     margin-bottom: 15px;
