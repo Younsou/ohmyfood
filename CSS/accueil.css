@@ -164,6 +164,7 @@ a{
 }
 .explor_button:hover{
     font-weight: 500;
+    background: linear-gradient(#d751d2, #9045d7);
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.671);
 }
 
