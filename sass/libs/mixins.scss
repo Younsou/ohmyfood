@@ -12,4 +12,8 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-    
+@mixin glissement {
+    animation-duration: 300ms;
+	animation-delay: 70ms;
+	animation-name: glissement;
+} 
