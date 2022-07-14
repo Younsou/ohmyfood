@@ -234,7 +234,7 @@ a{
     justify-content: space-between; 
     
 }
-.new{
+.new{ /* rectangle vert nouveau*/
     top: 15px;
     left: 72%;
     display: flex;
